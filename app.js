@@ -1,5 +1,6 @@
 const express = require('express');
 
+
 //import post router and user router
 const postRouter = require('./routes/post.routes');
 const userRouter = require('./routes/user.routes')
