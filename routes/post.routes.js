@@ -76,7 +76,7 @@ router.get('/', postController.getAllPublishedPost);
 /**
      * @openapi
      * '/api/posts/{postId}':
-     *  post:
+     *  get:
      *     tags:
      *     - Post Controller
      *     summary: Get a published posts by id
